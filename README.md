@@ -1,10 +1,18 @@
 # Packer
 Installing Packer &amp; Building an AMI image with Packer
 
-Run the below commands to install the Packer on CentOS7
+Install Packer
+Follow instructions here: https://www.packer.io/docs/installation.html
 
-sudo yum install -y yum-utils
+Check Packer is installed:
 
-sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+packer
 
-sudo yum -y install packer
+usage: packer [--version] [--help] <command> [<args>]
+
+Available commands are:
+    build        build image(s) from template
+    fix          fixes templates from old versions of packer
+    inspect      see components of a template
+    validate     check that a template is valid
+    
